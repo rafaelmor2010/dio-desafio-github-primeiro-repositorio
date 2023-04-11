@@ -4,7 +4,7 @@ O Git Bash é um terminal extendido para otimizar o uso do Git.
 Git e Github
 Comandos git
 Clonar repositório do Github para a nossa máquina local
-git clone https://github.com/rafaelmor2010/dio-desafio-github-primeiro-repositorio.git  
+git clone https://github.com/rafaelmor2010/dio-desafio-github-primeiro-repositorio.git  ou git@github.com:rafaelmor2010/dio-desafio-github-primeiro-repositorio.git
 git status para verificar se está correto.
 
 Código serve para adicionar todos arquivos que foram alterandos ele ira adicionar 
