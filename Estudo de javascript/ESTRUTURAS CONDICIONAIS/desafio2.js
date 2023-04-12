@@ -12,14 +12,14 @@ const precoGasolina = 5.5;
 let kmPorLitros = 10;
 let distanciaKm = 100;
 let resultado;
-let tipoCombustivel = "gasolina";
+let tipoCombustivel = 'alcool';
+
 
 if (tipoCombustivel === "alcool") {
   resultado = (distanciaKm / kmPorLitros) * precoAlcool;
-  console.log("Combustível utilizado foi alcool valor gasto:" + resultado);
 } else if (tipoCombustivel === "gasolina") {
   resultado = (distanciaKm / kmPorLitros) * precoGasolina;
-  console.log("Combustível utilizado foi gasolina valor gasto:" + resultado);
 } else {
   console.log("Erro do tipo combustível");
 }
+console.log('Combustível utilizado foi ' + tipoCombustivel+' valor gasto:' + resultado);
